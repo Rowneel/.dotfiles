@@ -37,7 +37,7 @@ local schema = {
 	-- wezterm.home_dir .. "/desktop/FullStackOpen",
 
 	sessionizer.FdSearch({
-		"C:/Users/user/Desktop",
+		wezterm.home_dir .. "/Desktop",
 		fd_path = "C:/Users/user/AppData/Local/Microsoft/WinGet/Packages/sharkdp.fd_Microsoft.Winget.Source_8wekyb3d8bbwe/fd-v10.3.0-x86_64-pc-windows-msvc/fd.exe",
 	}),
 	-- sessionizer.FdSearch(wezterm.home_dir .. "/Uni"),
