@@ -273,6 +273,13 @@ keybindings:
   - commands: ["shell-exec %ProgramFiles%/WezTerm/wezterm-gui.exe"]
     bindings: ["alt+q"]
 
+  # Launch Browser
+  - commands:
+      [
+        "shell-exec C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+      ]
+    bindings: ["alt+b"]
+
   # Launch vs code
   - commands: ["shell-exec %LocalAppData%/Programs/Microsoft VS Code/Code.exe"]
     bindings: ["alt+shift+q"]
