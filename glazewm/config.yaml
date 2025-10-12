@@ -48,14 +48,14 @@ gaps:
   scale_with_dpi: true
 
   # Gap between adjacent windows.
-  inner_gap: "10px"
+  inner_gap: "0px"
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: "50px"
-    right: "10px"
-    bottom: "10px"
-    left: "10px"
+    top: "40px"
+    right: "0px"
+    bottom: "0px"
+    left: "0px"
 
 window_effects:
   # Visual effects to apply to the focused window.
@@ -128,7 +128,11 @@ window_behavior:
 
 workspaces:
   - name: "1"
+    # display_name: "1:Browser"
+    # bind_to_monitor: 1
   - name: "2"
+    # bind_to_monitor: 0
+    # display_name: "2:Coding"
   - name: "3"
   - name: "4"
   - name: "5"
@@ -136,6 +140,7 @@ workspaces:
   - name: "7"
   - name: "8"
   - name: "9"
+    # bind_to_monitor: 1
 
 window_rules:
   - commands: ["ignore"]

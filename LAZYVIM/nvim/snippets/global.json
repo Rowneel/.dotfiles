@@ -3,5 +3,33 @@
     "prefix": "clog",
     "body": ["console.log(\"Logging ${1:first}\", ${1:first})"],
     "description": "Custom console log"
+  },
+  "rfce": {
+    "prefix": "rfce",
+    "body": [
+      "",
+      "function $TM_FILENAME_BASE() {",
+      "  return (",
+      "    <div>$TM_FILENAME_BASE$0</div>",
+      "  )",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE"
+    ],
+    "description": "React Functional Component Export"
+  },
+  "rafce": {
+    "prefix": "rafce",
+    "body": [
+      "",
+      "const $TM_FILENAME_BASE = () => {",
+      "  return (",
+      "    <div>$TM_FILENAME_BASE$0</div>",
+      "  )",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE"
+    ],
+    "description": "React Arrow Functional Component Export"
   }
 }
