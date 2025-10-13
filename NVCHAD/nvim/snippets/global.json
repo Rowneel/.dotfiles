@@ -1,7 +1,0 @@
-{
-  "clog": {
-    "prefix": "clog",
-    "body": ["console.log(\"Logging ${1:first}\", ${1:first})"],
-    "description": "Custom console log"
-  }
-}

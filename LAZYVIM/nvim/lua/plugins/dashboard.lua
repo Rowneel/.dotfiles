@@ -1,7 +1,7 @@
 return {
   "snacks.nvim",
   opts = {
-    picker = { sources = { explorer = { layout = { layout = { width = 25 } } } } },
+    -- picker = { sources = { explorer = { layout = { layout = { width = 25 } } } } },
     dashboard = {
       preset = {
         header = [[
