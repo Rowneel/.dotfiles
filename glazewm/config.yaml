@@ -257,7 +257,7 @@ keybindings:
 
   # Close focused window.
   - commands: ["close"]
-    bindings: ["alt+c"]
+    bindings: ["alt+q"]
 
   # Kill GlazeWM process safely.
   - commands: ["wm-exit"]
@@ -276,7 +276,7 @@ keybindings:
   # Terminal and Git Bash respectively.
   # - commands: ['shell-exec cmd']
   - commands: ["shell-exec %ProgramFiles%/WezTerm/wezterm-gui.exe"]
-    bindings: ["alt+q"]
+    bindings: ["alt+enter"]
 
   # Launch Browser
   - commands:

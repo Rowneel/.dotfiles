@@ -1,7 +1,7 @@
 {
   "clog": {
-    "prefix": "clog",
-    "body": ["console.log(\"Logging ${1:first}\", ${1:first})"],
+    "prefix": "clogg",
+    "body": ["console.log(\"Logging ${1:first}\", $1)"],
     "description": "Custom console log"
   },
   "rfce": {
@@ -31,5 +31,9 @@
       "export default $TM_FILENAME_BASE"
     ],
     "description": "React Arrow Functional Component Export"
+  },
+  "aro": {
+    "prefix": "aro",
+    "body": ["($1)=>{$0}"]
   }
 }
