@@ -43,8 +43,8 @@ map("n", "<C-j>", "<cmd>cnext<CR>zz", { desc = "Quickfix Next" })
 map("n", "<C-k>", "<cmd>cprev<CR>zz", { desc = "Quickfix Prev" })
 
 -- LocList navigation
-map("n", "<M-C-j>", "<cmd>lnext<CR>zz", { desc = "Quickfix Next" })
-map("n", "<M-C-k>", "<cmd>lprev<CR>zz", { desc = "Quickfix Prev" })
+map("n", "<M-C-j>", "<cmd>lnext<CR>zz", { desc = "LocList Next" })
+map("n", "<M-C-k>", "<cmd>lprev<CR>zz", { desc = "LocList Prev" })
 
 -- keep cursor at middle when jumping half page
 vim.keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true, silent = true })
