@@ -279,10 +279,13 @@ keybindings:
     bindings: ["alt+enter"]
 
   # Launch Browser
-  - commands:
-      [
-        "shell-exec C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
-      ]
+
+  # - commands:
+  #     [
+  #       "shell-exec C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+  #     ]
+  #   bindings: ["alt+b"]
+  - commands: ["shell-exec C:/Program Files/Zen Browser/zen.exe"]
     bindings: ["alt+b"]
 
   # Launch vs code

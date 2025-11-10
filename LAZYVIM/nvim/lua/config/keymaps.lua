@@ -49,3 +49,6 @@ map("n", "<M-C-k>", "<cmd>lprev<CR>zz", { desc = "LocList Prev" })
 -- keep cursor at middle when jumping half page
 vim.keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true, silent = true })
 vim.keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true, silent = true })
+
+-- telescope diagnostic
+map("n", "<leader>fd", "<cmd>Telescope diagnostics<CR>", { desc = "Telescope diagnostics" })
